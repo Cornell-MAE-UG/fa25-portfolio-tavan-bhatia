@@ -1,13 +1,25 @@
 ---
 layout: project
-title: Spaceship Design
+title: Fluid Mechanical Dissection
 description: Just a spaceship that I designed
-technologies: [SolidWorks, Machining]
-image: /assets/images/spaceship-design.jpg
+technologies: [Desmos, FLuid Mechanics]
+image: /assets/images/cycleops-jetfluid-pro-61731-1.jpg
 ---
 
 
-In 2021, NASA asked me to design a spaceship...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
+<div class="video-container">
+  <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/sJ50fItfoO8?si=1kEDC3vhRv_YlMs-" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen>
+  </iframe>
+</div>
 
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+<p></p>
 
+
+For my fluid mechanical dissection project, I tore down and analyzed a bike trainer with a focus on how it generates and manages heat during operation. I identified the main heat sources in the system—primarily losses from the resistance mechanism and drivetrain/friction interfaces—and then performed a thermal analysis to estimate heat generation as a function of load and speed. From there, I studied the trainer’s heat dissipation pathways, looking at how energy is rejected through conduction into the housing, convection to the surrounding air, and any design features that promote airflow or increase surface area. By comparing the expected heat input to the available cooling capacity, I was able to evaluate whether the trainer’s thermal design keeps temperatures in a safe range during sustained use and where the biggest opportunities are to improve heat shedding.
