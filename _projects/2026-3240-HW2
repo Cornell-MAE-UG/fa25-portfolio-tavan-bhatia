@@ -4,20 +4,11 @@ title: MAE 3240 Homework 2
 description: Heat transfer analysis using conduction and convection models
 technologies: [Heat Transfer, Energy Balance]
 ---
-
-## Overview
-
 This assignment focused on applying steady-state heat transfer principles to practical engineering problems. The problems required combining convection and conduction models with energy balances to determine heat loss and required heating power in different systems. By carefully identifying known quantities, assumptions, and governing equations, the analysis showed how thermal resistance networks and heat flux relationships can be used to predict system behavior.
-
-## Reflection
-
 Working through this assignment reinforced how heat transfer problems are often solved by translating a physical system into an equivalent thermal resistance model. In the first problem, I learned how to estimate the electrical power needed to maintain a temperature difference by balancing heat loss through convection over the exposed surface area. This required identifying the relevant heat transfer pathways and simplifying the system with assumptions like steady-state conditions and negligible radiation.
-
 The later problems emphasized how conduction and convection interact across material boundaries. I applied Fourier’s law and resistance networks to estimate heat flux and surface temperatures, which helped me better understand how parameters like the convection coefficient, material thickness, and conductivity influence overall heat transfer. Overall, the assignment helped build intuition for modeling thermal systems and reinforced the importance of clearly structuring an analysis using known values, assumptions, and governing equations. The final solutions matched expected physical trends—for example, increasing convection coefficients or reducing wall thickness increases heat transfer rates. :contentReference[oaicite:0]{index=0}
 
 ---
-
-## Full Submission
 
 <iframe 
 src="/assets/pdfs/submission_388029770.pdf"
