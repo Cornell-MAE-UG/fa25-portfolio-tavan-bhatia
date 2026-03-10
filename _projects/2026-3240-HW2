@@ -11,7 +11,7 @@ The later problems emphasized how conduction and convection interact across mate
 ---
 
 <iframe 
-src="{{ '/assets/hw2.pdf' | relative_url }}"
+src="{{ '/assets/3240-ps2.pdf' | relative_url }}"
 width="100%"
 height="800px">
 </iframe>
