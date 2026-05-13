@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Fluid Mechanical Dissection
-description: Just a spaceship that I designed
-technologies: [Desmos, FLuid Mechanics]
-image: /assets/images/cycleops-jetfluid-pro-61731-1.jpg
+title: Cube collection robot
+description: Autonomous Robot Design Project
+technologies: [Arduino, CAD, Laser Cutting, Color Sensor]
+image: /assets/images/robot-cad.jpg
 ---
 
 
@@ -21,5 +21,12 @@ image: /assets/images/cycleops-jetfluid-pro-61731-1.jpg
 
 <p></p>
 
+For our final robot project, we designed and built an autonomous cube-collecting robot for a head-to-head competition. Our goal was to keep the design simple and reliable rather than adding complicated mechanisms. The robot used a box-style acrylic chassis that maximized the allowed bounding box and helped guide cubes into the robot as it moved around the field.
 
-For my fluid mechanical dissection project, I tore down and analyzed a bike trainer with a focus on how it generates and manages heat during operation. I identified the main heat sources in the system—primarily losses from the resistance mechanism and drivetrain/friction interfaces—and then performed a thermal analysis to estimate heat generation as a function of load and speed. From there, I studied the trainer’s heat dissipation pathways, looking at how energy is rejected through conduction into the housing, convection to the surrounding air, and any design features that promote airflow or increase surface area. By comparing the expected heat input to the available cooling capacity, I was able to evaluate whether the trainer’s thermal design keeps temperatures in a safe range during sustained use and where the biggest opportunities are to improve heat shedding.
+The chassis was laser cut from acrylic and included side rails and top flanges to help retain cubes during sharp turns and collisions. The wheels and color sensor were protected inside the frame so the robot could continue driving even when it contacted cubes or another robot.
+
+The robot used an Arduino-based control system with a color sensor pointed at the ground. The sensor detected changes between colored regions of the board and triggered different movement routines. Our main strategy was to drive toward the yellow-blue corner, turn to align with the border, move in a serpentine pattern to collect cubes, then transition into a wider spiral around the center of the board.
+
+During testing, one of our biggest challenges was making the color sensor consistent under different lighting conditions. We adjusted our code to filter out noisy readings from blemishes on the floor and changed our testing setup so the sensor behaved more like it did during battery-powered runs.
+
+Overall, the project taught us that a simple robot with a well-tested strategy can be more effective than an overly complex design. By the end of the competition, our robot was able to execute its full movement algorithm and win several rounds.
