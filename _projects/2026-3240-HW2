@@ -8,8 +8,6 @@ image: /assets/images/robot-cad.png
 
 For our final robot project, we designed and built an autonomous cube-collecting robot for a head-to-head competition. Our goal was to keep the design simple and reliable rather than adding complicated mechanisms. The robot used a box-style acrylic chassis that maximized the allowed bounding box and helped guide cubes into the robot as it moved around the field.
 
-![CAD rendering of robot]({{ "/assets/images/robot-cad.jpg" | relative_url }}){: .inline-image-r style="width: 250px"}
-
 The chassis was laser cut from acrylic and included side rails and top flanges to help retain cubes during sharp turns and collisions. The wheels and color sensor were protected inside the frame so the robot could continue driving even when it contacted cubes or another robot.
 
 The robot used an Arduino-based control system with a color sensor pointed at the ground. The sensor detected changes between colored regions of the board and triggered different movement routines. Our main strategy was to drive toward the yellow-blue corner, turn to align with the border, move in a serpentine pattern to collect cubes, then transition into a wider spiral around the center of the board.
