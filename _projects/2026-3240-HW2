@@ -3,7 +3,7 @@ layout: project
 title: Cube Collection Robot
 description: Autonomous Robot Design Project
 technologies: [Arduino, CAD, Laser Cutting, Color Sensor]
-image: /assets/images/robot-cad.jpg
+image: /assets/images/robot-cad.png
 ---
 
 For our final robot project, we designed and built an autonomous cube-collecting robot for a head-to-head competition. Our goal was to keep the design simple and reliable rather than adding complicated mechanisms. The robot used a box-style acrylic chassis that maximized the allowed bounding box and helped guide cubes into the robot as it moved around the field.
