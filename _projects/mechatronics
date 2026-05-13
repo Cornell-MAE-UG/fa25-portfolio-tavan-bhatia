@@ -7,18 +7,6 @@ image: /assets/images/robot-cad.jpg
 ---
 
 
-<div class="video-container">
-  <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/sJ50fItfoO8?si=1kEDC3vhRv_YlMs-" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen>
-  </iframe>
-</div>
-
 <p></p>
 
 For our final robot project, we designed and built an autonomous cube-collecting robot for a head-to-head competition. Our goal was to keep the design simple and reliable rather than adding complicated mechanisms. The robot used a box-style acrylic chassis that maximized the allowed bounding box and helped guide cubes into the robot as it moved around the field.
